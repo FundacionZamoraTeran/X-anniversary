@@ -1,3 +1,19 @@
+/* insumo de la escuela*/
 #path55:hover{
-    fill: #DA4567 !important;
+    fill: #A4A4A4 !important;
+}
+
+/* Alumnos */
+#path55-5:hover{
+    fill: #A4A4A4 !important;
+}
+
+/* Docentes */
+#path55-7:hover{
+    fill: #A4A4A4 !important;
+}
+
+/* Gestión Directiva */
+#path55-3:hover{
+    fill: #A4A4A4 !important;
 }
