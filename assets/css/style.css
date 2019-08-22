@@ -1,19 +1,31 @@
 /* insumo de la escuela*/
 #path55:hover{
     fill: #A4A4A4 !important;
+    filter: drop-shadow( -3px -3px 2px rgba(0, 0, 0, .7));
 }
 
 /* Alumnos */
 #path55-5:hover{
     fill: #A4A4A4 !important;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
 /* Docentes */
 #path55-7:hover{
     fill: #A4A4A4 !important;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 
 /* Gestión Directiva */
 #path55-3:hover{
+    fill: #A4A4A4 !important;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.fun-label{
+    color: #008dd3;
+}
+
+#path40:hover{
     fill: #A4A4A4 !important;
 }

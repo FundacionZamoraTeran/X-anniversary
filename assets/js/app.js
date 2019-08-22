@@ -3,8 +3,6 @@ function cargarDatos(slide){
     $('#webslides').html(datos);
 }
 
-
-
 $( document ).ready(function() {
     cargarDatos("slide_1");
 
@@ -12,7 +10,13 @@ $( document ).ready(function() {
         alert('hello');
     });
     
+    
     $('#path55-5').on("click", function () {
        cargarDatos("slide_2");
+    });
+    
+//    Derecha-Alumnos
+    $("#path40").on('click', function(){
+       alert("flecha"); 
     });
 });
