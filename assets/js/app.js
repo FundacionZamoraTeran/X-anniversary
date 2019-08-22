@@ -11,7 +11,7 @@ $( document ).ready(function() {
     $('#path55').on("click", function () {
         alert('hello');
     });
-    
+
     $('#path55-5').on("click", function () {
        cargarDatos("slide_2");
     });
