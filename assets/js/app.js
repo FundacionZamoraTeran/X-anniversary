@@ -9,8 +9,12 @@ $( document ).ready(function() {
     $('#path55').on("click", function () {
         alert('hello');
     });
+<<<<<<< HEAD
     
     
+=======
+
+>>>>>>> 02719f197597450a6af6e8b79ff1fedae45d49af
     $('#path55-5').on("click", function () {
        cargarDatos("slide_2");
     });
