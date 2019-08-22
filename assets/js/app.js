@@ -1,21 +1,21 @@
-function cargarDatos(slices){
-    var datos = Mustache.render(data[0][slices].tpl);
+function cargarDatos(slides) {
+    var datos = Mustache.render(data[0][slides].tpl);
     $('#webslides').html(datos);
 }
 
-$( document ).ready(function() {
+$(document).ready(function () {
     // cargarDatos("slide_1");
-
     $('#path55').on("click", function () {
         alert('hello');
     });
 
-    $('#path55-5').on("click", function () {
     // cargarDatos("slide_2");
+    $('#path55-5').on("click", function () {
+
     });
 
-//    Derecha-Alumnos
-    $("#path40").on('click', function(){
-       alert("flecha");
+    // Derecha-Alumnos
+    $("#path40").on('click', function () {
+        alert("flecha");
     });
 });
