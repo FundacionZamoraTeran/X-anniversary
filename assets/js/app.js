@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
     //    Derecha-Alumnos
-    $("#path40").on('click', function () {
+    $("#path40").on("click", function () {
         alert("flecha");
     });
 
