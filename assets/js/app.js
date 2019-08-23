@@ -19,11 +19,12 @@ $(document).ready(function () {
         alert('hello');
     });
 
+    // cargarDatos("slide_2");
     $('#path55-5').on("click", function () {
-        // cargarDatos("slide_2");
+    
     });
 
-    //    Derecha-Alumnos
+    // Derecha-Alumnos
     $("#path40").on("click", function () {
         alert("flecha");
     });
