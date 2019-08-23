@@ -15,11 +15,11 @@ $(document).ready(function () {
     });
 
     //    Derecha-Alumnos
-    $("#path40").on('click', function () {
+    $("#path40").on("click", function () {
         alert("flecha");
     });
 
-    $("#button_lyl").on('click', function () {
+    $("#button_lyl").on("click", function () {
         Swal.fire({
             imageUrl: 'assets/img/graduate.svg',
             width: '70%',
