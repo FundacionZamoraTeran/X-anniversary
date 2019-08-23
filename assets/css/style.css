@@ -26,6 +26,10 @@
     color: #008dd3;
 }
 
+.fun-button{
+    border: none;
+}
+
 #path40:hover{
     fill: #A4A4A4 !important;
 }
