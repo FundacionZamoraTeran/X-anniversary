@@ -14,29 +14,43 @@ function cargarSwal(id, url) {
 }
 
 $(document).ready(function () {
+    cargarDatos("slide_main");
     // cargarDatos("slide_1");
-    cargarDatos("slide_4");
+    // cargarDatos("slide_4");
 
     $('#path55').on("click", function () {
         alert('hello');
     });
 
-    $('#path55-5').on("click", function () {
-        // cargarDatos("slide_2");
+    $('#arrow-main').on('click', function () {
+        cargarDatos('slide_1');
+
+        $('#alumnos').on("click", function () {
+            cargarDatos("slide_2");
+
+            // Derecha-Alumnos
+            $("#path40").on("click", function () {
+                cargarDatos("slide_3");
+
+                // Carga modal lengua y literatura
+                cargarSwal('#button_lyl', 'assets/img/graduate.svg');
+
+                // Carga modal matemáticas
+                cargarSwal('#button_mat', 'assets/img/matematicas.svg');
+
+                $("#path41").on("click", function () {
+                    cargarDatos("slide_2");
+                });
+            });
+        });
     });
 
-    //    Derecha-Alumnos
-    $("#path40").on("click", function () {
-        // cargarDatos("slide_3");
-    });
 
-    $("#path41").on("click", function () {
-        // cargarDatos("slide_2");
-    });
 
-    // Carga modal lengua y literatura
-    cargarSwal('#button_lyl', 'assets/img/graduate.svg');
 
-    // Carga modal matemáticas
-    cargarSwal('#button_mat', 'assets/img/matematicas.svg');
+
+
+    
+
+
 });
