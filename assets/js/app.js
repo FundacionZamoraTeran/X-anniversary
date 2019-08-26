@@ -3,7 +3,7 @@ function cargarDatos(slide) {
     $('#webslides').html(datos);
 }
 
-function cargarSwal(id, url){
+function cargarSwal(id, url) {
     $(id).on('click', function () {
         Swal.fire({
             imageUrl: url,
@@ -15,6 +15,8 @@ function cargarSwal(id, url){
 
 $(document).ready(function () {
     // cargarDatos("slide_1");
+    cargarDatos("slide_4");
+
     $('#path55').on("click", function () {
         alert('hello');
     });
@@ -25,12 +27,16 @@ $(document).ready(function () {
 
     //    Derecha-Alumnos
     $("#path40").on("click", function () {
-        alert("flecha");
+        // cargarDatos("slide_3");
+    });
+
+    $("#path41").on("click", function () {
+        // cargarDatos("slide_2");
     });
 
     // Carga modal lengua y literatura
-    cargarSwal('#button_lyl',  'assets/img/graduate.svg');
+    cargarSwal('#button_lyl', 'assets/img/graduate.svg');
 
     // Carga modal matemáticas
-    cargarSwal('#button_mat',  'assets/img/matematicas.svg');
+    cargarSwal('#button_mat', 'assets/img/matematicas.svg');
 });

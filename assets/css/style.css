@@ -24,12 +24,26 @@
 
 .fun-label{
     color: #008dd3;
+    font-weight: bold;
+}
+
+.label-center{
+    text-align: center;
+    padding: 1%;
 }
 
 .fun-button{
     border: none;
 }
 
-#path40:hover{
+.arrow:hover{
     fill: #A4A4A4 !important;
+}
+
+#rect21:hover{
+    fill: #A4A4A4 !important;
+}
+
+section{
+    margin: -8%;
 }
